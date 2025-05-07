@@ -14,16 +14,21 @@
 
         <h2>Login</h2>
         <div class="form-section">
-            <input type="text"  required id ="username">
-            <label for="">Email</label>
-            <div class="error" id="usernameerror"></div>
-        </div>
+            <div class="input-container">
 
-        <div class="form-section">
-            <input type="password" required id ="password"> 
-           <label for="">Password</label>
-<div class="error" id="passworderror"></div>
+                <input type="text"  required id ="username">
+                <label for="">Username</label>
+                <div class="error" id="usernameerror"></div>
+            </div>
+            
+            <div class="input-container">
+
+                <input type="password" required id ="password"> 
+                <label for="">Password</label>
+                <div class="error" id="passworderror"></div>
+            </div>
         </div>
+    
         <p><input type="checkbox" > Remember Me <a href="#">Forget Password</a></p>
   <button class="btn" id="btn"> LOGIN</button>
         <p>Don't have an account? <a href="#"> Register</a></p>
